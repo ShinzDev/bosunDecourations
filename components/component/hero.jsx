@@ -18,22 +18,20 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 import Link from "next/link"
-// import Image from 'next/image'
-// import run from "../component/bgimg";
 import './hero.css'
+
 export function Hero() {
   return (
     (<section
-      className="w-full py-12 md:py-24 lg:py-32 xl:py-48  text-white relative">
+      className="w-full py-12 md:py-24 lg:py-32 xl:py-48   text-white relative">
       <div
-        className="absolute inset-0 bg-[url(/placeholder.svg)] bg-cover bg-center opacity-20" />
+        className="absolute inset-0    you bg-cover bg-center opacity-0.1" />
       <div className="container px-4 md:px-6 relative z-10">
-        <div className="flex flex-col items-center text-center space-y-6">
-          <div className="space-y-4 you">
-            {/* <Image src={run} alt="" srcset="" /> */}
+        <div className="flex flex-col items-left text-left space-y-6">
+          <div className="space-y-4">
             <h1
               className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-              Welcome to Our App
+              Welcome to Bosun Decorations
             </h1>
             <p className="max-w-xl text-lg md:text-xl">
               Discover the power of our innovative app and transform the way you work.
@@ -51,4 +49,7 @@ export function Hero() {
     </section>)
   );
 }
-// bg-gradient-to-r from-[#6366F1] to-[#9333EA]
+
+
+//bg-[url(/placeholder.svg)]
+//bg-gradient-to-r from-[#414141] to-[#6b5151]
