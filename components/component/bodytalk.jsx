@@ -25,7 +25,7 @@ export function Bodytalk() {
         className="container px-4 md:px-6 flex flex-col md:flex-row items-center justify-center text-center md:text-left">
         <div className="max-w-2xl space-y-4 md:mr-8">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Us</h2>
-          <p className="text-gray-500 md:text-xl dark:text-gray-400">
+          <p className="text-black-500 md:text-xl dark:text-black-400">
             We are a team of passionate designers and developers who love creating beautiful and functional digital
             experiences.
           </p>
