@@ -19,6 +19,19 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 import Image from "next/image";
 import pic from "./bgimg.jpg";
+import wow from "./wow2.jpg";
+import touch from "./wow3.jpg";
+import center from "./upviewcenterpiece.jpg";
+import table from "./tablepiece.jpg";
+import engage from "./engage1.jpg";
+import ten from "./10.jpg";
+import person from "./poeple2.jpg";
+import per from "./people3.jpg";
+import table2 from "./tablepieceblue.jpg";
+import lights from "./image.jpg";
+import sideview from "./sideview.jpg";
+
+
 export function Mansory() {
   return (
     <div
@@ -43,7 +56,7 @@ export function Mansory() {
           alt="Image 2"
           className="w-full h-full object-cover rounded-lg"
           height="300"
-          src="/placeholder.svg"
+          src={wow}
           style={{
             aspectRatio: "400/300",
             objectFit: "cover",
@@ -56,7 +69,7 @@ export function Mansory() {
           alt="Image 3"
           className="w-full h-full object-cover rounded-lg"
           height="500"
-          src="/placeholder.svg"
+          src={engage}
           style={{
             aspectRatio: "400/500",
             objectFit: "cover",
@@ -69,7 +82,7 @@ export function Mansory() {
           alt="Image 4"
           className="w-full h-full object-cover rounded-lg"
           height="450"
-          src="/placeholder.svg"
+          src={table}
           style={{
             aspectRatio: "600/450",
             objectFit: "cover",
@@ -82,7 +95,7 @@ export function Mansory() {
           alt="Image 5"
           className="w-full h-full object-cover rounded-lg"
           height="250"
-          src="/placeholder.svg"
+          src={touch}
           style={{
             aspectRatio: "350/250",
             objectFit: "cover",
@@ -95,7 +108,7 @@ export function Mansory() {
           alt="Image 6"
           className="w-full h-full object-cover rounded-lg"
           height="350"
-          src="/placeholder.svg"
+          src={center}
           style={{
             aspectRatio: "500/350",
             objectFit: "cover",
@@ -108,7 +121,7 @@ export function Mansory() {
           alt="Image 1"
           className="w-full h-full object-cover rounded-lg"
           height="400"
-          src={pic}
+          src={sideview}
           style={{
             aspectRatio: "600/400",
             objectFit: "cover",
@@ -121,7 +134,7 @@ export function Mansory() {
           alt="Image 2"
           className="w-full h-full object-cover rounded-lg"
           height="300"
-          src="/placeholder.svg"
+          src={ten}
           style={{
             aspectRatio: "400/300",
             objectFit: "cover",
@@ -134,7 +147,7 @@ export function Mansory() {
           alt="Image 3"
           className="w-full h-full object-cover rounded-lg"
           height="500"
-          src="/placeholder.svg"
+          src={lights}
           style={{
             aspectRatio: "400/500",
             objectFit: "cover",
@@ -147,7 +160,7 @@ export function Mansory() {
           alt="Image 4"
           className="w-full h-full object-cover rounded-lg"
           height="450"
-          src="/placeholder.svg"
+          src={table2}
           style={{
             aspectRatio: "600/450",
             objectFit: "cover",
@@ -160,7 +173,7 @@ export function Mansory() {
           alt="Image 5"
           className="w-full h-full object-cover rounded-lg"
           height="250"
-          src="/placeholder.svg"
+          src={per}
           style={{
             aspectRatio: "350/250",
             objectFit: "cover",
@@ -173,7 +186,7 @@ export function Mansory() {
           alt="Image 6"
           className="w-full h-full object-cover rounded-lg"
           height="350"
-          src="/placeholder.svg"
+          src={person}
           style={{
             aspectRatio: "500/350",
             objectFit: "cover",

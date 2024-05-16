@@ -23,8 +23,8 @@ import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet"
 
 export function Topnav() {
   return (
-    (<header className="flex h-16 w-full items-center     justify-evenly bg-transparent px-4 fixed     bg-blur-sm z-50   md:px-6">
-      <Link className="flex items-center gap-2" href="#">
+    (<header id="home" className="flex h-16 w-full items-center     justify-evenly bg-transparent px-4 fixed     bg-blur-sm z-50   md:px-6">
+      <Link className="flex items-center gap-2" href="./">
         <MountainIcon className="h-6 w-6" />
         <span className="sr-only">Acme Inc</span>
       </Link>
@@ -32,14 +32,17 @@ export function Topnav() {
         <Link className="hover:underline hover:underline-offset-4" href="./">
           Home
         </Link>
-        <Link className="hover:underline hover:underline-offset-4" href="#">
+        <Link className="hover:underline hover:underline-offset-4" href="#me">
           About
         </Link>
         <Link className="hover:underline hover:underline-offset-4" href="#man">
           Our Works
         </Link>
-        <Link className="hover:underline hover:underline-offset-4" href="#">
+        <Link className="hover:underline hover:underline-offset-4" href="#contact">
           Contact
+        </Link>
+        <Link className="hover:underline hover:underline-offset-4" href="./blog">
+          Blog
         </Link>
       </nav>
       <Sheet>
