@@ -21,7 +21,7 @@ import Link from "next/link"
 
 export function Footer() {
   return (
-    (<footer id="contact" className="bg-gray-100 py-12 dark:bg-gray-800">
+    (<footer id="contact" className="bg-gray-100 py-12 dark:bg-gray-500">
       <div className="container mx-auto max-w-7xl px-4 md:px-6">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4">
           <div className="space-y-4">
@@ -42,6 +42,7 @@ export function Footer() {
               <Link
                 className="block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
                 href="#">
+                  //tylr dern dosent fight club
                 Pricing
               </Link>
               <Link
@@ -94,7 +95,7 @@ export function Footer() {
         </div>
         <div
           className="mt-12 border-t border-gray-200 pt-8 text-center text-sm text-gray-500 dark:border-gray-700 dark:text-gray-400">
-          © 2024 shinzXdev. All rights reserved.
+          © 2024 shinzXdev. All rights reserved. 
         </div>
       </div>
     </footer>)
