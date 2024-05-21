@@ -23,7 +23,7 @@ import './hero.css'
 export function Hero() {
   return (
     (<section
-      className="w-full py-12 md:py-24 lg:py-32 xl:py-48   text-white relative">
+      className="w-full py-12 md:py-24 lg:py-32 xl:py-48   text-black relative">
       <div
         className="absolute inset-0    you bg-cover bg-center opacity-0.1" />
       <div className="container px-4 md:px-6 relative z-10">
@@ -33,7 +33,7 @@ export function Hero() {
               className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
               Welcome to Bosun Decorations
             </h1>
-            <p className="max-w-xl text-lg md:text-xl">
+            <p className="max-w-xl text-lg md:text-xl ">
               Discover the power of our innovative app and transform the way you work.
             </p>
           </div>
