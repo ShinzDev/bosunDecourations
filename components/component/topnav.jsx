@@ -25,13 +25,13 @@ export function Topnav() {
   return (
     <header
       id="home"
-      className="flex h-16 w-full items-center text-xl justify-evenly   bg-transparent px-4 fixed z-50   md:px-6"
+      className="flex h-16 w-full items-center text-xl justify-evenly    bg-transparent px-4 fixed z-50   md:px-6"
     >
       <Link className="flex items-center gap-2" href="./">
         <MountainIcon className="h-6 w-6" />
         <span className="sr-only">Acme Inc</span>
       </Link>
-      <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
+      <nav className="hidden items-center gap-6     text-lg font-bold md:flex">
         <Link className="hover:underline hover:underline-offset-4" href="./">
           Home
         </Link>

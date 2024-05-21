@@ -33,7 +33,7 @@ export function Hero() {
               className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
               Welcome to Bosun Decorations
             </h1>
-            <p className="max-w-xl text-lg md:text-xl ">
+            <p className="max-w-xl text-2xl md:text-xl ">
               Discover the power of our innovative app and transform the way you work.
             </p>
           </div>
