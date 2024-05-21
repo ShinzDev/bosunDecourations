@@ -29,7 +29,7 @@ export function Footer() {
               {/* <MountainIcon className="h-8 w-8 text-gray-900 dark:text-gray-50" /> */}
               <span className="ml-2 text-lg font-semibold text-gray-900 dark:text-gray-50">Bosun Decorations </span>
             </div>
-            <p className="text-gray-500 dark:text-gray-400">Crafting innovative solutions for the modern web.</p>
+            <p className="text-gray-500 dark:text-gray-400">Where Beauty Meets Function.</p>
           </div>
           <div className="space-y-2">
             <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-50">Product</h4>
