@@ -21,13 +21,13 @@ import Link from "next/link"
 
 export function Footer() {
   return (
-    (<footer id="contact" className="bg-gray-100 py-12 dark:bg-gray-500">
+    (<footer id="contact" className="bg-gray-100 py-12 dark:bg-gray-800">
       <div className="container mx-auto max-w-7xl px-4 md:px-6">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4">
           <div className="space-y-4">
             <div className="flex items-center">
-              <MountainIcon className="h-8 w-8 text-gray-900 dark:text-gray-50" />
-              <span className="ml-2 text-lg font-semibold text-gray-900 dark:text-gray-50">Acme Inc</span>
+              {/* <MountainIcon className="h-8 w-8 text-gray-900 dark:text-gray-50" /> */}
+              <span className="ml-2 text-lg font-semibold text-gray-900 dark:text-gray-50">Bosun Decorations </span>
             </div>
             <p className="text-gray-500 dark:text-gray-400">Crafting innovative solutions for the modern web.</p>
           </div>
