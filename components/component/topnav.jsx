@@ -18,6 +18,8 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 import Link from "next/link";
+import Image from 'next/image'
+
 import { Button } from "@/components/ui/button";
 import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet";
 
@@ -29,7 +31,9 @@ export function Topnav() {
     >
       <Link className="flex items-center gap-2" href="./">
         <MountainIcon className="h-6 w-6" />
-        <span className="sr-only">Acme Inc</span>
+        <span className="sr-only">
+
+        </span>
       </Link>
       <nav className="hidden items-center gap-6     text-lg font-bold md:flex">
         <Link className="hover:underline hover:underline-offset-4" href="./">

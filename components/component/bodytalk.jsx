@@ -17,25 +17,28 @@ To read more about using these font, please visit the Next.js documentation:
 - App Directory: https://nextjs.org/docs/app/building-your-application/optimizing/fonts
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
+import Image from 'next/image'
+import profile from './bosunprofile.jpg'
+
 export function Bodytalk() {
   return (
     (<section id="me"
-      className="flex flex-col items-center justify-center py-12 md:py-24 lg:py-32">
+      className="flex flex-col items-center  bg-black border-yellow-600 justify-center py-12 md:py-24 lg:py-32">
       <div
         className="container px-4 md:px-6 flex flex-col md:flex-row items-center justify-center text-center md:text-left">
         <div className="max-w-2xl space-y-4 md:mr-8">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Us</h2>
-          <p className="text-black-500 md:text-xl dark:text-black-400">
+          <p className="text-black-500 md:text-xl  dark:text-black-400">
             We are a team of passionate designers and developers who love creating beautiful and functional digital
             experiences.
           </p>
         </div>
         <div className="mt-8 md:mt-0">
-          <img
+          <Image
             alt="Team Photo"
             className="rounded-full w-40 h-40 object-cover"
             height={160}
-            src="/placeholder.svg"
+            src={profile}
             style={{
               aspectRatio: "160/160",
               objectFit: "cover",
