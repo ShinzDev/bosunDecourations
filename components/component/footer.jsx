@@ -42,7 +42,7 @@ export function Footer() {
               <Link
                 className="block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
                 href="#">
-                  //tylr dern dosent fight club
+                  
                 Pricing
               </Link>
               <Link
