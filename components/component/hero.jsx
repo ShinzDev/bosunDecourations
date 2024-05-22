@@ -34,7 +34,7 @@ export function Hero() {
               Welcome to Bosun Decorations
             </h1>
             <p className="max-w-xl text-2xl md:text-xl ">
-              Discover the power of our innovative app and transform the way you work.
+            Make your event a masterpiece! Welcome to Bosun Decorations, where creativity meets expertise. Let's collaborate to create an unforgettable experience
             </p>
           </div>
           <Link

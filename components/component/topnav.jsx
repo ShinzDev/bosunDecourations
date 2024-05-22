@@ -69,13 +69,13 @@ export function Topnav() {
           <div className="grid gap-4 p-4">
             <Link
               className="font-medium hover:underline hover:underline-offset-4"
-              href="#"
+              href="./"
             >
               Home
             </Link>
             <Link
               className="font-medium hover:underline hover:underline-offset-4"
-              href="#"
+              href="#me"
             >
               About
             </Link>

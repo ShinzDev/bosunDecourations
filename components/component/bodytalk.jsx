@@ -29,8 +29,8 @@ export function Bodytalk() {
         <div className="max-w-2xl space-y-4 md:mr-8">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Us</h2>
           <p className="text-black-500 md:text-xl  dark:text-black-400">
-            We are a team of passionate designers and developers who love creating beautiful and functional digital
-            experiences.
+          Step into the world of extraordinary events! At Bosun decoration, we craft breathtaking decor that leaves a lasting impression. Explore our portfolio and let's get started.
+
           </p>
         </div>
         <div className="mt-8 md:mt-0">
