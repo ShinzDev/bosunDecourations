@@ -81,15 +81,21 @@ export function Topnav() {
             </Link>
             <Link
               className="font-medium hover:underline hover:underline-offset-4"
-              href="#"
+              href="#man"
             >
-              Services
+              Our Works
             </Link>
             <Link
               className="font-medium hover:underline hover:underline-offset-4"
-              href="#"
+              href="#contact"
             >
               Contact
+            </Link>
+            <Link
+              className="font-medium hover:underline hover:underline-offset-4"
+              href="./blog"
+            >
+              Blog
             </Link>
           </div>
         </SheetContent>
