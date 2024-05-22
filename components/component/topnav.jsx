@@ -19,6 +19,7 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 import Link from "next/link";
 import Image from 'next/image'
+import lotus from './logo.png'
 
 import { Button } from "@/components/ui/button";
 import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet";
@@ -30,7 +31,8 @@ export function Topnav() {
       className="flex h-16 w-full items-center text-xl justify-evenly    bg-transparent px-4 fixed z-50   md:px-6"
     >
       <Link className="flex items-center gap-2" href="./">
-        <MountainIcon className="h-6 w-6" />
+        {/* <MountainIcon className="h-6 w-6" />   */}
+        <Image src={lotus} alt=""  className="h-10 w-10"  srcset="" />
         <span className="sr-only">
 
         </span>
