@@ -1,5 +1,9 @@
 #to do list 
 
--[] get the footer working 
--[] add pictures to the mansory 
+-[x] get the footer working 
+-[x] add pictures to the mansory 
 -[] add finish the about
+-[] work on a contact page 
+-[] 
+-[] 
+-[] 
