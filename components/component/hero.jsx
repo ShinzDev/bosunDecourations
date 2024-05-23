@@ -33,12 +33,12 @@ export function Hero() {
               className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
               Welcome to Bosun Decorations
             </h1>
-            <p className="max-w-xl text-2xl md:text-xl ">
+            <p className="      max-w-7xl text-2xl md:text-xl ">
             Make your event a masterpiece! Welcome to Bosun Decorations, where creativity meets expertise. Let's collaborate to create an unforgettable experience
             </p>
           </div>
           <Link
-            className="inline-flex items-center justify-center rounded-md bg-white px-6 py-3 text-lg font-medium text-[#6366F1] shadow-lg transition-colors hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#6366F1]"
+            className="inline-flex items-center justify-center rounded-md    bg-white px-6 py-3 text-lg font-medium text-[#e1018a] shadow-lg transition-colors hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#6366F1]"
             href="#">
             Get Started
           </Link>
