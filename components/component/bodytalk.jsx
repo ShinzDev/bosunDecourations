@@ -18,14 +18,14 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 import Image from 'next/image'
-import profile from './bosunprofile.jpg'
-
+import profilic from './profile.jpg'
+import './talk.css'
 export function Bodytalk() {
   return (
-    (<section id="me"
-      className="flex flex-col items-center  bg-black border-yellow-600 justify-center py-12 md:py-24 lg:py-32">
+    (<section id="me" 
+      className="flex flex-col items-center     justify-center px-10 py-20 md:py-20 lg:py-20">
       <div
-        className="container px-4 md:px-6 flex flex-col md:flex-row items-center justify-center text-center md:text-left">
+        className="container  border-black border try bg-black py-20 px-4 md:px-6 flex flex-col  md:flex-row items-center justify-center text-center md:text-left">
         <div className="max-w-2xl space-y-4 md:mr-8">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Us</h2>
           <p className="text-black-500 md:text-xl  dark:text-black-400">
@@ -38,7 +38,7 @@ export function Bodytalk() {
             alt="Team Photo"
             className="rounded-full w-40 h-40 object-cover"
             height={160}
-            src={profile}
+            src={profilic}
             style={{
               aspectRatio: "160/160",
               objectFit: "cover",

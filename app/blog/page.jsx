@@ -1,11 +1,12 @@
 import { Blog } from "@/components/component/blog";
 import { Footer } from "@/components/component/footer";
-import { Topnav } from "@/components/component/topnav";
+import { Topblog } from "@/components/component/topblog";
 
 export default function Nextpage() {
     return(
         <div>
-            <Topnav/>
+  
+            <Topblog/>
             <Blog/>
             <Footer/>
         </div>
