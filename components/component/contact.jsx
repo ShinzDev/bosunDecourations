@@ -24,7 +24,7 @@ import { Button } from "@/components/ui/button"
 
 export function Contact() {
   return (
-    (<main
+    (<main id="contact" 
       className="w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
       <div className="space-y-6">
         <div className="text-center">
