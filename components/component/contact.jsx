@@ -39,7 +39,7 @@ export function Contact() {
         </div>
         <div
           className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-8">
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 space-y-4">
+          <div className="bg-white dark:bg-black rounded-lg shadow-lg p-6 space-y-4">
             <h3 className="text-lg font-medium text-gray-900 dark:text-gray-100">Contact Information</h3>
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
@@ -92,8 +92,8 @@ export function Contact() {
             </div>
           </div>
           <div
-            className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 col-span-1 sm:col-span-2 lg:col-span-2 space-y-4">
-            <h3 className="text-lg font-medium text-gray-900 dark:text-gray-100">Send us a message</h3>
+            className="bg-white dark:bg-black rounded-lg shadow-lg p-6 col-span-1 sm:col-span-2 lg:col-span-2 space-y-4">
+            <h3 className="text-lg font-medium text-green-700 dark:text-gray-100">Send us a message</h3>
             <form className="space-y-4">
               <div>
                 <Label htmlFor="name">Name</Label>
