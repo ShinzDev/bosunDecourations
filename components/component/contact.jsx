@@ -33,7 +33,7 @@ export function Contact() {
             Get in Touch
           </h1>
           <p
-            className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 dark:text-gray-400 sm:mt-4">
+            className="mt-3 max-w-2xl mx-auto text-xl text-gray-100 dark:text-gray-400 sm:mt-4">
             Have a question or want to work together? Fill out the form below or contact us directly.
           </p>
         </div>
@@ -59,7 +59,7 @@ export function Contact() {
                     strokeLinejoin="round"
                     strokeWidth={2} />
                 </svg>
-                <span className="text-gray-700 dark:text-gray-400">123 Main St, Anytown USA</span>
+                <span className="text-gray-700 dark:text-gray-400">12 Macurly</span>
               </div>
               <div className="flex items-center space-x-2">
                 <svg
@@ -73,7 +73,8 @@ export function Contact() {
                     strokeLinejoin="round"
                     strokeWidth={2} />
                 </svg>
-                <span className="text-gray-700 dark:text-gray-400">(555) 555-5555</span>
+                {/* <input type="number" name="" id="" /> */}
+                <span className="text-gray-700 dark:text-gray-400"> +2348085123238</span>
               </div>
               <div className="flex items-center space-x-2">
                 <svg
@@ -87,7 +88,7 @@ export function Contact() {
                     strokeLinejoin="round"
                     strokeWidth={2} />
                 </svg>
-                <span className="text-gray-700 dark:text-gray-400">info@example.com</span>
+                <span className="text-gray-700 dark:text-gray-400">bosundecorations@gmail.com</span>
               </div>
             </div>
           </div>
@@ -107,7 +108,7 @@ export function Contact() {
                 <Label htmlFor="message">Message</Label>
                 <Textarea id="message" placeholder="Your message..." rows={4} />
               </div>
-              <Button className="w-full" type="submit">
+              <Button className="w-full bg-black text-red-800 font-extrabold" type="submit">
                 Send Message
               </Button>
             </form>
@@ -117,3 +118,6 @@ export function Contact() {
     </main>)
   );
 }
+
+
+// text-[#e1018a
