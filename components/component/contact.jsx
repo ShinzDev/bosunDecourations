@@ -59,7 +59,7 @@ export function Contact() {
                     strokeLinejoin="round"
                     strokeWidth={2} />
                 </svg>
-                <span className="text-gray-700 dark:text-gray-400">12 Macurly</span>
+                a<span className="text-gray-700 dark:text-gray-400">  Macaulay street, lagos state , lagos </span>
               </div>
               <div className="flex items-center space-x-2">
                 <svg
@@ -73,8 +73,7 @@ export function Contact() {
                     strokeLinejoin="round"
                     strokeWidth={2} />
                 </svg>
-                {/* <input type="number" name="" id="" /> */}
-                <span className="text-gray-700 dark:text-gray-400"> +2348085123238</span>
+                <span className="text-gray-700 dark:text-gray-400"> +234 907 434 8321</span>
               </div>
               <div className="flex items-center space-x-2">
                 <svg
@@ -88,7 +87,7 @@ export function Contact() {
                     strokeLinejoin="round"
                     strokeWidth={2} />
                 </svg>
-                <span className="text-gray-700 dark:text-gray-400">bosundecorations@gmail.com</span>
+                <span className="text-gray-700 dark:text-gray-400">bosundecor5@gmail.com</span>
               </div>
             </div>
           </div>
