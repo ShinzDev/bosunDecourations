@@ -29,8 +29,7 @@ export function Bodytalk() {
         <div className="max-w-2xl space-y-4 md:mr-8">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Us</h2>
           <p className="text-black-500 md:text-xl  dark:text-black-400">
-          Step into the world of extraordinary events! At Bosun decoration, we craft breathtaking decor that leaves a lasting impression. Explore our portfolio and let's get started.
-
+          Welcome to Bosun Decorations, where we transform your visions into unforgettable experiences. Specializing in bespoke event decorations, we pride ourselves on creating stunning, personalized settings for every occasion. Whether you’re planning an intimate gathering or a grand celebration, our team of dedicated professionals is here to bring your dream event to life.
           </p>
         </div>
         <div className="mt-8 md:mt-0">
