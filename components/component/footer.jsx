@@ -18,7 +18,7 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 import Link from "next/link"
-
+import { FaInstagram } from "react-icons/fa";
 export function Footer() {
   return (
     (<footer className="bg-gray-100 py-12 dark:bg-black">
@@ -83,6 +83,7 @@ export function Footer() {
               <Link
                 className="block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
                 href="#">
+                  <FaInstagram />
                 Instgram
               </Link>
               <Link
