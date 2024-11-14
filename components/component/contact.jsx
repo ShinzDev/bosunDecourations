@@ -91,6 +91,7 @@ export function Contact() {
               </div>
             </div>
           </div>
+           {/* email in progerss */}
           <div
             className="bg-white dark:bg-black rounded-lg shadow-lg p-6 col-span-1 sm:col-span-2 lg:col-span-2 space-y-4">
             <h3 className="text-lg font-medium text-green-700 dark:text-gray-100">Send us a message</h3>

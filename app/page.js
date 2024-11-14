@@ -21,3 +21,8 @@ export default function Home() {
     </div>
   );
 }
+
+
+// Make it better than the last time 
+// connect the dots 
+// having a unique skillset that can't be copied and also stand the test of time 
