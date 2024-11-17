@@ -32,8 +32,8 @@ export function Contact() {
    const sendEmail = (e) =>{
     e.preventDefault()
 
-
-    emailjs.sendForm('service_km4fukj' , 'template_id ', e.target , 'public_key' )
+    
+    emailjs.sendForm('service_km4fukj' , 'template_d4wc6rq', e.target , 'ytz2JCdKedEdCiXoq' )
 
 
    }
