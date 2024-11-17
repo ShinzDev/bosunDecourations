@@ -1,4 +1,4 @@
-"use client "
+"use client" ;
 
 
 
@@ -25,13 +25,17 @@ import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
-
+import emailjs from  '@emailjs/browser'
 export function Contact() {
 
 
    const sendEmail = (e) =>{
     e.preventDefault()
-    alert('sumitted')
+
+
+    emailjs.sendForm('service_km4fukj' , 'template_id ', e.target , 'public_key' )
+
+
    }
   return (
     (<main id="contact" 
@@ -69,7 +73,7 @@ export function Contact() {
                     strokeLinejoin="round"
                     strokeWidth={2} />
                 </svg>
-                a<span className="text-gray-700 dark:text-gray-400">  Macaulay street, lagos state , lagos </span>
+                <span className="text-gray-700 dark:text-gray-400">  Macaulay street, lagos state , lagos </span>
               </div>
               <div className="flex items-center space-x-2">
                 <svg
@@ -112,7 +116,7 @@ export function Contact() {
               </div>
               <div>
                 <Label htmlFor="email">Email</Label>
-                <Input id="email" placeholder="john@example.com" type="email" />
+                <Input id="email" placeholder="john@example.com" name="email_from" type="email" />
               </div>
               <div>
                 <Label htmlFor="message">Message</Label>
