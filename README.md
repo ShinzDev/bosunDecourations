@@ -1,9 +1,3 @@
-#to do list 
+trying to fix email problem  
 
--[x] get the footer working 
--[x] add pictures to the mansory 
--[] add finish the about
--[] work on a contact page 
--[] 
--[] 
--[] 
+[now using emailjs docs]
